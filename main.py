@@ -82,6 +82,9 @@ def main():
             sys.exit()  
     except IndexError:
         print("commandを入力してください")
+    except KeyboardInterrupt:
+        print("\n")
+        print("強制終了しました")
 
 if __name__ == "__main__":
     main()
