@@ -10,8 +10,6 @@ NDJSON_FALE_PATH = "lists.ndjson"
 
 def help():
 
-    # 今後の展望
-    # Linuxのようなhelpを作成する。
     print("add                  add a word and description")
     print("show                 show word lists")
     print("delete               delete lists")
